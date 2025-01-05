@@ -12,6 +12,14 @@ Use a capture filter to limit the data to traffic relevant to the traffic that n
 
 2) When enough data has been captured, the capture can be stopped.
 Enter the packet analyzing phase; The various indicators of unusual activity can be High Traffic Volume, Unusual Protocols and Suspicious IP Addresses. All three can be investigated by the use of the Statistics menu.
+
 “IO Graphs” can help visualize traffic over time, and spikes that deviate from normal traffic patterns can appear (High Traffic Volume).
+
 "Protocol Hierarchy" checks for unknown or unexpected protocols. If there are any protocols not typically used in the work environment, this can be further investigated (Unusual Protocols).
+
 "Statistics" helps identify any unfamiliar IP addresses generating substantial amounts of traffic and/or communicating with internal devices (Suspicious IP Addresses).
+
+
+3) Filter and Drill down traffic by the use of display filters. They help isolate traffic further through queries (for example, dns.qry name == "1.0.168.192.in-addr.arpa" && dns.qry.type == 12)
+
+
