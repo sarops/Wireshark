@@ -33,7 +33,7 @@ Any anomalies in the filtered results could e.g. indicate a potential DNS tunnel
 
 
 
-5) If any suspicious connections are identified, right-click on a packet and select "Follow" > "TCP(or UDP) Stream". This will show the entire conversation between two endpoints.
+5) If any suspicious connections are identified, right-click on a packet and select "Follow" > "TCP Stream". This will show the entire conversation between two endpoints. The dialog box data can be viewed in several helpful formats (https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html).
 
 
 
